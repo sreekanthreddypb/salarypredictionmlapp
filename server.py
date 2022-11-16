@@ -22,5 +22,9 @@ def predict():
     # Take the first value of prediction
     output = prediction[0]
     return jsonify(output)
+
+@app.route('/hi', methods=['GET'])
+def hi():
+    return "Hello Word"
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
