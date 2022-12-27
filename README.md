@@ -1,6 +1,6 @@
 # salarypredictionmlapp
 
-run flask locally or run using docker
+run flask locally(install module required for this application) or run using docker
 
 docker run -p 0.0.0.0:5000:5000 sreekanthreddypb/salaryapp:latest
 
